@@ -11,4 +11,4 @@
 
 
 
-[^chess_api_links]: <a href='http://onlinematerial.ir/docs'>link</a>
+[^chess_api_links]: <a href='http://onlinematerial.ir/docs'>Link</a>
