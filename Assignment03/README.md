@@ -1,7 +1,7 @@
 ## Chess API
 - You can test APIs on the following[^chess_api_links] link.
 
-| ENDPOINT | REQUEST TYPE | PARAMETER | DESCRIPTION |
+| ENDPOINT | REQUEST TYPE | OPTIONAL PARAMETER | DESCRIPTION |
 | --- | --- | --- | --- |
 | / | GET | - | Introduce Chess API |
 | /pieces | GET | piece_name piece_image | Get a list of information on all six chess pieces or image |
