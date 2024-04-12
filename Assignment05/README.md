@@ -1,2 +1,2 @@
-## Deploy ToDo Application API on Liara
+## Deploy ToDo API on Liara
 - 
