@@ -35,7 +35,7 @@ async def read_task(id: Optional[int] = None):
 async def add_task(task: Task):
     if task.id == None:
         task.id = database.count_tasks() + 1
-    elif not database.search_task(task.id):
+    if not database.search_task(task.id):
         database.add_task(int(task.id), str(task.title), str(task.description), str(task.time), str(task.status))
         return task
     else:
