@@ -11,7 +11,7 @@ Run PostgreSQL locally:
 ```
 docker run -p 5432:5432 --name [NAME] -e POSTGRES_PASSWORD=[PASSWORD] -e POSTGRES_USER=[USER] -e POSTGRES_DB=[DB_NAME] -d postgres
 ```
-note that you must add the url in `database.py`:
+Note that you must add the URL in `database.py`:
 ```
 SQLALCHEMY_DATABASE_URL = "postgresql://[USER]:[PASSWORD]@localhost:5432/[DB_NAME]"
 ```
