@@ -6,7 +6,7 @@
 
 ## Expert App
 - In this project, I'm working with Sqlalchemy in FastAPI and PostgreSQL database[^1] and then deploy the project to <a href="https://console.liara.ir">Liara</a>.
-- Note that the tutorial that was mentioned is `one-to-many` relationship but since I replaced User and Items with Student and Course it's `many-to-many` relationship.
+- Note that the tutorial[^1] that was mentioned is `one-to-many` relationship but since I replaced User and Items with Student and Course it's `many-to-many` relationship.
 
 Run PostgreSQL locally:
 ```
