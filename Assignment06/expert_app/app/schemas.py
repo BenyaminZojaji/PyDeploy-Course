@@ -12,11 +12,14 @@ class CourseCreate(CourseBase):
 
 class Course(CourseBase):
     id: int
-    # student_id: int
-    students: list["Student"] = []
+    # students: list["Student"] = []
 
     class Config:
         orm_mode = True
+
+
+class CourseWithStudents(Course):
+    students: list["Student"] = []
 
 
 class StudentBase(BaseModel):
@@ -31,8 +34,11 @@ class StudentCreate(StudentBase):
 
 class Student(StudentBase):
     id: int
-    # course_id = int
-    courses: list[Course] = []
+    # courses: list[Course] = []
 
     class Config:
         orm_mode = True
+
+
+class StudentWithCourses(Student):
+    courses: list[Course] = []
