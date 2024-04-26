@@ -6,7 +6,8 @@
 
 ## Expert App
 - In this project, I'm working with Sqlalchemy in FastAPI and PostgreSQL database[^1] and then deploy the project to <a href="https://console.liara.ir">Liara</a>.
- 
+- Note that the tutorial that was mentioned is `one-to-many` relationship but since I replaced User and Items with Student and Course it's `many-to-many` relationship.
+
 Run PostgreSQL locally:
 ```
 docker run -p 5432:5432 --name [NAME] -e POSTGRES_PASSWORD=[PASSWORD] -e POSTGRES_USER=[USER] -e POSTGRES_DB=[DB_NAME] -d postgres
