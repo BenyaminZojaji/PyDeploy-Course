@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
+from streamlit_lottie import st_lottie
 
 with st.sidebar:
     st.info("You can upload a CSV file to quickly see dataframe in a table and scatter chart.")
+    st.lottie("https://lottie.host/a4ee0352-2ec9-4ac6-849a-3848c40fbc0e/8PIUm2Kv3q.json")
 
 
 uploaded_file = st.file_uploader("Upload a CSV file...", type=["csv"])
