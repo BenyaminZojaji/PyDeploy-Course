@@ -9,7 +9,6 @@ uploaded_file = st.file_uploader("Upload a CSV file...", type=["csv"])
 
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
-    col1, col2 = st.columns(2)
     
     st.dataframe(data)
 
