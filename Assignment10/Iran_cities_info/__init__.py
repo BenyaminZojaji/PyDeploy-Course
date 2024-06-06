@@ -1,0 +1,1 @@
+from .check import empty_argument
