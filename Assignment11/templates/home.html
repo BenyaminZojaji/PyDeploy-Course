@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+</head>
+
+<body>
+    <nav class="route-tab-bar">
+        <a href="/blog">Blog</a>
+        <a href="/contact">Contact</a>
+        <a href="/login">Login</a>
+    </nav>
+    <img src="static/images/avatar.jpg" width="300px" id="myimg">
+    <h2>About me: </h2>
+    <p>
+        Bachelor of Computer Engineering at Sadjad
+        University of Technology.
+        Possesses solid knowledge of machine learning,
+        image processing, and deep learning concepts,
+        and is capable of translating the requirements
+        into programs using Python. Bringing forth an
+        in-depth understanding of printing and strong
+        technical abilities relating to working with the
+        machines used during production. Capable of
+        working in a team and having exceptional
+        organizational as well as communication skills.
+    </p>
+    <div class="cv">
+        <a href="{{ url_for('resume_download') }}"><button>My CV</button></a>
+    </div>
+</body>
+
+</html>

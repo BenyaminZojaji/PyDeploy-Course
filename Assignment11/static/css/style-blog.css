@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 0px 100px;
+}
+
+.route-tab-bar {
+    border-radius: 8px;
+    position: sticky;
+    top: 10px;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    -webkit-box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    -moz-box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    padding: 0px 50px;
+    z-index: 2;
+    background-color: white;
+}
+
+.route-tab-bar a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    font-size: 22px;
+}
+
+.route-tab-bar a:hover {
+    text-decoration: underline;
+}
+
+
+.blogs-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 50px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.blog-card {
+    width: 27%;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    height: 400px;
+    box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    -webkit-box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    -moz-box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.blog-card img {
+    height: 250px;
+}
+
+.blog-card p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

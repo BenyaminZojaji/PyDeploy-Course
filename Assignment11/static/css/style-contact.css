@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background: #f3f3f3;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.route-tab-bar {
+    border-radius: 8px;
+    position: absolute;
+    top: 10px;
+    height: 65px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    -webkit-box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    -moz-box-shadow: 1px 0px 29px -3px rgba(94, 87, 87, 0.52);
+    padding: 0px 50px;
+    z-index: 2;
+    background-color: white;
+}
+
+.route-tab-bar a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    font-size: 22px;
+}
+
+.route-tab-bar a:hover {
+    text-decoration: underline;
+}
+
+.stickyicon-list {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+.stickyicon-list a {
+    display: block;
+    text-align: center;
+    padding: 32px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.stickyicon-list a:hover {
+    font-size: 22px;
+}
+
+.telegram {
+    background: #3b5998;
+}
+
+.x-twitter {
+    background: #00acee;
+}
+
+.linkedin {
+    background: #0e76a8;
+}
+
+.instagram {
+    background: #db4a39;
+}
